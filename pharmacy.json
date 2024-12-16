@@ -1,0 +1,58 @@
+{
+    "categories": [
+      {
+        "name": "Analgesics",
+        "medicines": [
+          {"name": "Paracetamol", "description": "Relieves mild to moderate pain.", "price": 5.00, "image": "pha image/Parcetamol.jpg"},
+          {"name": "Ibuprofen", "description": "Relieves pain and reduces inflammation.", "price": 7.00, "image": "pha image/ibuprofin.jpg"},
+          {"name": "Aspirin", "description": "Used for pain relief and heart health.", "price": 6.00, "image": "pha image/aspirin.jpg"},
+          {"name": "Acetaminophen", "description": "Treats minor aches and pains.", "price": 4.50, "image": "pha image/acetaminophen.jpg"},
+          {"name": "Naproxen", "description": "Provides longer-lasting pain relief.", "price": 8.00, "image": "pha image/naproxen.jpg"},
+          {"name": "Codeine", "description": "For moderate to severe pain.", "price": 12.00, "image": "pha image/codeine.jpg"}
+        ]
+      },
+      {
+        "name": "Antibiotics",
+        "medicines": [
+          {"name": "Amoxicillin", "description": "Broad-spectrum antibiotic.", "price": 12.00, "image": "pha image/amoxi.jpg"},
+          {"name": "Ciprofloxacin", "description": "Treats bacterial infections.", "price": 10.00, "image": "pha image/ciprofloxacin.jpg"},
+          {"name": "Doxycycline", "description": "Used for bacterial and parasitic infections.", "price": 9.00, "image": "pha image/doxycycline.jpg"},
+          {"name": "Erythromycin", "description": "Alternative to penicillin-based antibiotics.", "price": 11.00, "image": "pha image/erythromycin.jpg"},
+          {"name": "Metronidazole", "description": "Treats bacterial and protozoal infections.", "price": 13.00, "image": "pha image/Metronidazole.jpg"},
+          {"name": "Clindamycin", "description": "For skin and soft tissue infections.", "price": 14.00, "image": "pha image/clindamycin.jpg"}
+        ]
+      },
+      {
+        "name": "Antidepressants",
+        "medicines": [
+          {"name": "Fluoxetine", "description": "Treats depression and anxiety disorders.", "price": 15.00, "image": "pha image/fluoxetine.jpg"},
+          {"name": "Sertraline", "description": "Commonly used for mood disorders.", "price": 16.00, "image": "pha image/sertraline.jpg"},
+          {"name": "Citalopram", "description": "Helps with major depression.", "price": 14.50, "image": "pha image/Citalopram.jpg"},
+          {"name": "Escitalopram", "description": "Used for generalized anxiety disorder.", "price": 18.00, "image": "pha image/Escitalopram.jpg"},
+          {"name": "Amitriptyline", "description": "A tricyclic antidepressant.", "price": 10.00, "image": "pha image/Amitriptyline.jpg"},
+          {"name": "Venlafaxine", "description": "For major depressive and anxiety disorders.", "price": 20.00, "image": "pha image/Venlafaxine.jpg"}
+        ]
+      },
+      {
+        "name": "Antihistamines",
+        "medicines": [
+          {"name": "Cetirizine", "description": "For allergy relief.", "price": 8.00, "image": "pha image/citrazin.jpg"},
+          {"name": "Loratadine", "description": "Non-drowsy antihistamine.", "price": 9.00, "image": "pha image/Loratadine.jpg"},
+          {"name": "Diphenhydramine", "description": "For allergy and sleep aid.", "price": 7.50, "image": "pha image/Diphenhydramine.jpg"},
+          {"name": "Fexofenadine", "description": "Relieves hay fever symptoms.", "price": 10.00, "image": "pha image/Fexofenadine.jpg"}
+        ]
+      },
+      {
+        "name": "Antihypertensives",
+        "medicines": [
+          {"name": "Amlodipine", "description": "For high blood pressure.", "price": 15.00, "image": "pha image/Amlodipine.jpg"},
+          {"name": "Losartan", "description": "Helps manage hypertension.", "price": 14.00, "image": "pha image/Losartan.jpg"},
+          {"name": "Metoprolol", "description": "A beta blocker for hypertension.", "price": 13.00, "image": "pha image/Metoprolol.jpg"},
+          {"name": "Lisinopril", "description": "Used to treat high blood pressure.", "price": 12.00, "image": "pha image/Lisinopril.jpg"},
+          {"name": "Hydrochlorothiazide", "description": "A diuretic for hypertension.", "price": 10.50, "image": "pha image/hctz.jpg"},
+          {"name": "Valsartan", "description": "For heart failure and hypertension.", "price": 16.00, "image": "pha image/Valsartan.jpg"}
+        ]
+      }
+    ]
+  }
+  

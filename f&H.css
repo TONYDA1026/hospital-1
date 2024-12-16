@@ -1,0 +1,240 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%; /* Full screen width */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Blue Top Bar */
+.top-bar {
+    width: 100%;
+    background-color: #05125ae3; /* Blue color */
+    color: rgb(210, 212, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar-left, .top-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .icon {
+    margin-right: 0px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.top-bar-right, .top-bar-left .icon {
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white; /* White background for the icons */
+    color: #0010ef; /* Same blue color for icon symbols */
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #0010ef; /* Changes to blue when hovered */
+    color: white; /* Changes icon color to white when hovered */
+}
+
+.social-icon i {
+    display: inline-block;
+}
+
+
+/* Logo and Navigation Wrapper */
+.logo-nav-wrapper {
+    width: 100%;
+    padding: 0px 0;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-bottom: 2px solid #e6e6e6; /* A light border below the logo section */
+    box-sizing: border-box;
+}
+
+/* Logo and Hospital Name */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 70px;
+}
+
+.logo {
+    width: 70px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.hospital-name {
+    font-size: 30px;
+    color: #0a024e; /* blue color similar to the image */
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+
+/* Navigation Bar */
+.main-nav {
+    background-color: #05012c98; /* Blue background for the nav */
+    padding: 15px 0;
+    
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    color: #ff3333; /* Red color on hover */
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: #060a47;
+    color: white;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.footer-left {
+    margin-left: 20px;
+}
+
+.footer-right {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 0.7em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Query for small screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        margin: 10px 0;
+    }
+
+    .footer-right {
+        text-align: center;
+        font-size: 0.8em;
+        margin-right: 0;
+    }
+
+    .footer-left h3 {
+        font-size: 1.2em;
+    }
+
+    footer a {
+        font-size: 0.8em;
+    }
+}
+
+/* Media Query for small screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .main-nav ul li {
+        margin: 10px 0; /* Increased margin to make items more readable */
+    }
+
+    .main-nav ul li a {
+        font-size: 14px; /* Slightly smaller text size */
+    }
+}
+
+/* Media Query for medium screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-nav ul li {
+        margin: 10px 15px;
+    }
+
+    .main-nav ul li a {
+        font-size: 15px;
+    }
+}
+
+/* Media Query for larger screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+    .main-nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-nav ul li a {
+        font-size: 18px;
+    }
+}

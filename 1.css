@@ -1,0 +1,62 @@
+/* Patient Resources Section */
+.patient-resources-section {
+    padding: 60px 20px;
+    background-color: #e9f5ff; /* Light background for contrast */
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.patient-resources-section h2 {
+    font-size: 2.5em;
+    color: #022242;
+    margin-bottom: 20px;
+}
+
+.resource-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.resource-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resource-box h3 {
+    font-size: 1.8em;
+    color: #022242;
+    margin-bottom: 15px;
+}
+
+.resource-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-box ul li {
+    margin-bottom: 10px;
+}
+
+.resource-box a {
+    text-decoration: none;
+    color: #014286;
+    transition: color 0.3s;
+}
+
+.resource-box a:hover {
+    color: #022242;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .patient-resources-section {
+        padding: 40px 10px;
+    }
+
+    .patient-resources-section h2 {
+        font-size: 2em;
+    }
+}

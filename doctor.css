@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Doctor Profiles Section */
+.doctor-profiles {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    grid-template-rows: auto 1fr; /* Adjust grid rows */
+}
+
+.profiles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid for profile cards */
+    gap: 20px; /* Spacing between profile cards */
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Profile Image Styling */
+.profile-card img {
+    width: 120px;  
+    height: 120px;
+    border-radius: 50%;  
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-card h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.specialty {
+    color: #0070b0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bio {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact {
+    color: #004080;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Media Query for screens less than 768px wide */
+@media (max-width: 768px) {
+    .profiles-container {
+        grid-template-columns: 1fr; /* Stack profile cards vertically on smaller screens */
+    }
+}

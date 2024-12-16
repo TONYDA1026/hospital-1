@@ -1,0 +1,149 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Section Container */
+.hospital-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* Booking Form Styling */
+.booking-form {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #003060;
+}
+
+/* Centers or Units Section Styling */
+.units-container {
+    width: 65%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.unit-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.unit-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+    margin-right: 20px;
+}
+
+.unit-card h3 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.unit-card p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Media Query for screens less than 768px wide */
+@media (max-width: 768px) {
+    /* Adjust the hospital-section layout */
+    .hospital-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Make the booking form and units container full width */
+    .booking-form, .units-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Unit cards in a column layout */
+    .unit-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Adjust image size for mobile */
+    .unit-card img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .unit-card h3 {
+        font-size: 18px;
+    }
+
+    .unit-card p {
+        font-size: 13px;
+    }
+
+    /* Adjust booking form button size */
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

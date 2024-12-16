@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Hospital PLC</title>
+    <link rel="stylesheet" href="center.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="f&H.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Ffavicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Ffavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Ffavicon/favicon-16x16.png">
+    <link rel="manifest" href="Ffavicon/site.webmanifest">
+<body> 
+    <div class="container">
+
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <span class="icon">📞 0110 123 123</span>
+                <span class="icon">✉️ unitedhospital@slt.lk</span>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="logo-nav-wrapper">
+            <div class="logo-container">
+                <img src="image/logo.png" alt="United Hospital Logo" class="logo">
+                <h1 class="hospital-name">United Hospitals PLC</h1>
+                
+            </div>
+        </div>
+        <header>
+            
+            <nav class="main-nav">
+                <ul>
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>  
+                  <li><a href="center.html">Centers&Units</a></li>
+                  <li><a href="doctor.html">Doctors</a></li>
+                  <li><a href="pharmacy.html">Pharmacy</a></li>
+                  <li><a href="clinics.html">Services</a></li>
+                  <li><a href="carees.html">Careers</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="hospital-section">
+            <div class="booking-form">
+                <h2>Book an Appointment</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="patient-name">Patient Name:</label>
+                        <input type="text" id="patient-name" name="patient-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clinic-select">Select Clinic:</label>
+                        <select id="clinic-select" name="clinic-select" required>
+                            <option value="">Select Clinic</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="orthopedics">Orthopedics</option>
+                            <option value="dermatology">Dermatology</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="appointment-date">Select Date:</label>
+                        <input type="date" id="appointment-date" name="appointment-date" required>
+                    </div>
+                    <input type="submit" class="btn" value="Book Appointment">
+                </form>
+            </div>
+    
+            <div class="units-container">
+                <h2>Our Centers & Units</h2>
+                <div class="unit-card">
+                    <img src="center/Cardiology.jpg" alt="Cardiology Center">
+                    <h3>Cardiology Center</h3>
+                    <p>Specializing in advanced heart care, offering cardiac surgeries and treatments for a range of heart conditions.</p>
+                </div>
+                <div class="unit-card">
+                    <img src="center/pediatric.jpg" alt="Pediatrics Center">
+                    <h3>Pediatrics Center</h3>
+                    <p>Providing specialized care for children from newborns to adolescents, focusing on preventive and advanced treatments.</p>
+                </div>
+                <div class="unit-card">
+                    <img src="center/orthopedic.jpg" alt="Orthopedic Unit">
+                    <h3>Orthopedic Unit</h3>
+                    <p>Focused on bone, joint, and muscle care, offering minimally invasive surgeries and treatments for faster recovery.</p>
+                </div>
+                <div class="unit-card">
+                    <img src="center/dermatology.jpg" alt="Dermatology Center">
+                    <h3>Dermatology Center</h3>
+                    <p>Offering treatments for a wide range of skin conditions and cosmetic procedures to help patients look and feel their best.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <h3>United Hospitals PLC</h3>
+                <p>&copy; 2024 United Hospital. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <p>123 Wellness Avenue,</p>
+                <p>City Health District,</p>
+                <p>Colombo, 00100,</p>
+                <p>Sri Lanka</p>
+                <p>Phone: 0110 123 123</p>
+                <p>Email: <a href="mailto:unitedhospital@slt.lk">unitedhospital@slt.lk</a></p>
+            </div>
+        </footer>
+    </div>    
+</body>
+</html>

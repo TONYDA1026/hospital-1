@@ -1,0 +1,109 @@
+/* Background Video */
+.backvid {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Video Overlay */
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust overlay opacity */
+  z-index: 0;
+}
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Subtle text shadow for emphasis */
+  }
+
+.hero h2{
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Subtle text shadow for emphasis */ 
+   
+}
+.hero {
+  text-align: center;
+}
+.btn-primary {
+  background-color: #022242f5;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.774);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #014286;
+}
+/* New Subtext Styling */
+.hero-subtext {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #c0a745; /* Light Yellow color to attract attention */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Subtle text shadow for emphasis */
+  font-style: italic;
+}
+
+/* Media Queries for Tablets and Mobile Devices */
+@media only screen and (max-width: 768px) {
+
+/* Adjust the video size and container for mobile */
+.backvid {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Hero Section Adjustments */
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 1.5em; /* Smaller heading font size */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Lighter shadow on small screens */
+}
+
+.hero p {
+  font-size: 1em; /* Reduce paragraph font size */
+}
+
+.hero-subtext {
+  font-size: 1.2em; /* Smaller subtext font size */
+  color: #c0a745;
+}
+
+/* Adjust button size for mobile */
+.btn-primary {
+  padding: 8px 16px;
+  font-size: 1em;
+}
+
+/* Ensure text-shadow doesn't overpower on smaller screens */
+.hero h2, .hero p, .hero-subtext {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Reduce video overlay opacity for mobile */
+.video-overlay {
+  background: rgba(0, 0, 0, 0.3); /* Slightly lighter overlay */
+}
+
+/* Align content for smaller screens */
+.hero {
+  margin: 0 auto;
+  width: 90%;
+}
+}
